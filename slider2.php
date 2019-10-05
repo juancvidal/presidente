@@ -1,0 +1,36 @@
+<?php 
+    
+?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/sliderpre.v3.css?v=<?php echo(rand()); ?>">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"></script>
+    <script src="js/slider.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <body>
+        <div id="first-slider" class="arrow-pre">
+            <img id="duque" class="img-slider" src="img/slider_large_pre.png" alt="">
+            <blockquote cite="http://politica.elpais.com/politica/2012/11/18/videos/1353277325_711056.html">
+                <p class="linea">LINEA DE TIEMPO - PRESIDENTES</p>
+                <p class="cite">Presidentes Colombianos (1810 - Actualidad). [EN LINEA]. Banrepcultural. [Citado en 22 de Junio de
+                    2018]. <br/>Disponible en Internet, <a href="http://enciclopedia.banrepcultural.org/index.php?title=Presidentes_colombianos_(1810_-_actualidad)"
+                            target="_blank" title="Presidentes Colombianos (1810 - Actualidad)">Presidentes Colombianos
+                            (1810 - Actualidad) <cite>Banrepcultural</cite></a></p>
+                
+            </blockquote>
+        </div>
+    </body>
+</body>
+
+</html>

@@ -1,0 +1,90 @@
+@font-face {
+    font-family: BB;
+    src: url('../fonts/BemboStdBold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: BS;
+    src: url('../fonts/BemboStd.otf') format('opentype');
+}
+
+@font-face {
+    font-family: NB;
+    src: url('../fonts/NexaBold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: NL;
+    src: url('../fonts/NexaLight.otf') format('opentype');
+}
+
+html{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.arrow-pre{
+    position: absolute;
+    top: 35px;   
+    height: 90%;
+}
+.linea{
+    font-style: normal;    
+    font-weight: bolder;
+    font-size: .8rem;
+}
+.linea-title{
+    font-style: normal;    
+    /*font-weight: bolder;*/
+    font-size: 1rem;
+    margin-left: 20%;
+}
+.img-slider{
+    height: 88%;
+    cursor: e-resize;
+}
+    
+blockquote {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    padding-left: 1.5rem;
+    border-left: 5px solid #3C315D;
+    /*width: 15%;*/
+    font-size: 70%;
+    font-style: italic;
+    margin-left: 0%;
+}
+ blockquote > p{
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+ }
+
+ .cite{
+    font-size: 1.2em;
+ }
+
+p {
+    font-family: BS;
+}
+
+@media only screen and (max-device-width: 768px){
+    .arrow-pre {        
+        top: 25px;        
+    }
+    blockquote{
+        font-size: 45%;
+        padding-left: .2rem;
+        width: 20%;
+    }
+    
+    .img-slider {
+        height: 86%;
+    }
+    .linea-title {        
+        font-size: .6rem;       
+    }
+    .linea{
+        font-style: normal;    
+        font-weight: bolder;
+        font-size: .4rem;
+    }
+}
